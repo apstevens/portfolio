@@ -210,6 +210,17 @@ a.social:hover {
       margin: 0 auto;
   }
 
+  .background-image {
+  width: 300px;
+  border-radius: 6px;
+  border-bottom: 4px solid #ccc;
+  transition: all .5s;
+}
+
+.background-image:hover {
+  border-color: #ff99ff;
+}
+
   header {
     min-height: 470px;
   }
