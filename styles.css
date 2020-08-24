@@ -103,7 +103,7 @@ header .profile-image:hover {
 }
 
 .background-image {
-  width: 300px;
+  width: 240px;
   border-radius: 6px;
   border-bottom: 4px solid #ccc;
   transition: all .5s;
