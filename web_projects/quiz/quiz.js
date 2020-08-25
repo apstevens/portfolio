@@ -25,7 +25,7 @@ let correctAnswers = 0;
 
 for ( let i = 0; i < questions.length; i++){
     let question = questions[i][0];
-    let answer = questions[i][1].toLowerCase();
+    let answer = questions[i][1];
     let response = prompt(question);
 
     if (response === answer){
