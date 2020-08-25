@@ -90,9 +90,9 @@ header .profile-image:hover {
   color: yellow;
 }
 .card {
-  margin: 30px;
+  margin: 30px 10px;
   padding: 20px 40px 40px;
-  max-width: 400px;
+  max-width: 320px;
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
@@ -229,12 +229,12 @@ a.social:hover {
       display: flex; 
       max-width: 1200px;
       -ms-flex-pack: distribute;
-      justify-content: space-around;
+      justify-content: center;
       margin: 0 auto;
   }
 
   .background-image {
-  width: 300px;
+  width: 240px;
   border-radius: 6px;
   border-bottom: 4px solid #ccc;
   transition: all .5s;
