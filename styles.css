@@ -131,6 +131,20 @@ ul.skills {
   background: #0399ff;
 }
 
+ul.work-experience {
+  padding: 0;
+  text-align: center;
+  /* list-style-type: none; */
+}
+
+.work-experience li {
+  display: inline-block;
+  line-height: 1.5em;
+  padding: 5px 5px;
+  margin: 2px;
+}
+
+
 .project_list a {
   color: white;
 }
