@@ -55,9 +55,20 @@ a:hover {
   color: white
 }
 
+.header-image {
+  background: url('images/space.jpg') no-repeat top center; 
+  height: 470px; 
+  background-size: 100%; 
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  z-index: -1;
+}
+
 header {
   text-align: center;
-  background: url('images/space.jpg') no-repeat top center ;
+  /* background: url('images/space.jpg') no-repeat top center ; */
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
