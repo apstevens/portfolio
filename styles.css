@@ -135,7 +135,7 @@ ul.skills {
 ul.work-experience {
   padding: 0;
   text-align: center;
-  /* list-style-type: none; */
+  list-style-type: disc;
 }
 
 .hyperlink-image {
@@ -146,7 +146,8 @@ ul.work-experience {
 }
 
 .work-experience li {
-  display: inline-block;
+  text-align: left;
+  width: 200px;
   line-height: 1.5em;
   padding: 5px 5px;
   margin: 2px;
