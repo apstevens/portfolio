@@ -56,17 +56,20 @@ img {
 }
 
 .name a,
-.main-nav a {
+.main-nav a,
+.footer-nav a {
 	text-align: center;
 }
 
-.main-nav a {
+.main-nav a,
+.footer-nav a {
 	font-size: .95em;
 	color: #3acec2;
 	text-transform: uppercase;
 }
 
-.main-nav a:hover {
+.main-nav a:hover,
+.footer-nav a:hover {
 	color: #093a58;
 }
 
@@ -97,7 +100,7 @@ img {
 
 .main-footer {
 	background: #d9e4ea;
-	padding: 2em 0;
+	padding: 2em 2em;
 	margin-top: 30px;
 }
 
@@ -144,6 +147,16 @@ img {
 	.main-nav li {
 		display: inline-block;
 		margin-left: 15px;
+	}
+
+	.footer-nav {
+		float: right;
+
+	}
+
+	.footer-nav li {
+		display: inline-block;
+		padding-left: 15px;
 	}
 
 	.tagline {
