@@ -1,86 +1,172 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Andy Stevens's Profile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Muli%7CRoboto:400,300,500,700,900" rel="stylesheet"></head>
-  <body>
-    <div class="header-image"></div>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <nav class="main-nav">
-        <ul class="nav">
-          <li class="name">Andy Stevens</li>
-          <li><a href="index.html" target="_self">Home</a></li>
-          <li><a href="experience.html" target="_self">Experience</a></li>
-          <li><a href="contact.html" target="_self">Contact</a></li>
-        </ul>
-      </nav>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
-    <header id="top">
-      <img src="images/rsz_office_pic.jpg" alt="Picture of Andy Stevens" class="profile-image">
-      <h1 class="tag name">Hello, I’m Andy.</h1>
-      <p class="tag location">Welcome to my site. Here you'll find my background, goals, aspirations and achievements.</p>
-    </header>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <title>Shayle ~ Web Design</title>
+</head>
 
-    <main class="flex">
-      <section class="card">
-        <h2>Background</h2>
-        <p>I’m an aspiring web designer who loves everything about the web. There is no better feeling than taking someones vision even my own and bringing it to life digitally 
-          for the world to see. I've lived in lots of different places and have worked in lots of different jobs. I’m excited to bring my life experience to the process of 
-          building fantastic looking websites.</p>
-        <p>I’ve been a semi-professional boxer and am a life-long learner who's always interested in expanding my skills.</p>
-        <img src="images/coding.jpg" alt="Coding example" class="background-image">
-      </section> 
+<body class="p-3 mb-2 text-white">
+    <div id="overlay">
+        <div class="overlay-container">
+            <h1 class="welcome">Welcome!</h1>
+            <p class="welcome">Bring <strong>Your</strong> internet presence to life.</p>
+        </div>
+    </div>
+    <!-- navbar -->
+    <nav class="container navbar-dark bg-dark site-header mt4 py-1">
+        <div class="d-flex flex-column flex-md-row justify-content-between">
+            <a class="py-2 d-none d-md-inline-block" href="index.html">Home</a>
+            <a class="py-2 d-none d-md-inline-block" href="projects.html">Projects</a>
+            <a class="py-2 d-none d-md-inline-block" href="experience.html">Experience</a>
+            <a class="py-2 d-none d-md-inline-block" href="contact.html">Contact</a>
+        </div>
+        <div class="container">
+    </nav>
+    <!-- /navbar-->
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid bg-info text-white my-5">
+        <div class="container text-sm-center pt-5">
+            <h1 class="display-2">Shayle ~ Web Design</h1>
+            <p class="lead"><em id="quote"></em></p>
+            <div class="btn-group mt-4" role="group" aria-label="Callout buttons">
+                <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#register">Contact me</button>
+                <a class="btn btn-light btn-lg" href="projects.html">My projects</a>
+            </div>
+        </div>
+    </div><!-- /Jumbotron -->
+    <div class="container pt-4">
+        <!-- about -->
+        <div id="about" class="row">
+            <div id="about" class="col-lg order-lg-2">
+                <h3 class="mb-4">About Andy</h3>
+                <img class="mb-4 img-fluid rounded d-none d-sm-block profile" src="img/rsz_office_pic.jpg" alt="Andy">
+                <p>I'm an aspiring web designer/developer who loves all things tech! For me there is no greater feeling than bringing someone elses 
+                    vision for their internet presence to live.</p>
+                <p>I have lived in a lot of different places and travelled extensively, though I still have a number of places to tick off my bucket list.
+                    Professionally I have experience in project management, development, design and running a fast paced busy helpdesk.</p>
+            </div>
+            <div class="col-lg order-lg-1">
+                <h3 class="mb-4">Goals</h3>
+                <p>I want to continue building web sites and increase my knowledge, skills and abilities in: </p>
+                <hr class="mb-4 border border-dark">
+                <div class="list-group">
+                    <span class="border border-dark">
+                        <a href="#" class="list-group-item list-group-item-action goals"><strong>HTML</strong><span><img class="hyperlink" src="img/html.png"></span></a>
+                        <a href="#" class="list-group-item list-group-item-action goals"><strong>CSS</strong><span><img class="hyperlink" src="img/css.jpg"></span></a>
+                        <a href="#" class="list-group-item list-group-item-action goals"><strong>JavaScript</strong><span><img class="hyperlink" src="img/JS.png"></span></a>
+                        <a href="#" class="list-group-item list-group-item-action goals"><strong>React</strong>: JavaScript library <span><img class="hyperlink" src="img/react.png"></span></a>
+                        <a href="#" class="list-group-item list-group-item-action goals"><strong>Node.js</strong>: JavaScript environment <span><img class="hyperlink" src="img/node.png"></span></a>
+                        <a href="#" class="list-group-item list-group-item-action goals"><strong>Java</strong><span><img class="hyperlink" src="img/java.png"></span></a>
+                        <a href="#" class="list-group-item list-group-item-action goals"><strong>Python</strong><span><img class="hyperlink" src="img/python.jpg"></span></a>
+                        <a href="#" class="list-group-item list-group-item-action goals"><strong>SQL</strong><span><img class="hyperlink" src="img/sql.jpg"></span></a>
+                    </span>
+                </div>
+                <hr class="my-4 border border-dark">
+                <p>My primary goal as a life long learner is to continue my personal development, professionally I want to continue seeking challenges and strive for 
+                    excellence in all I do!</p>
 
-      <section class="card">
-        <h2>Goals</h2>
-        <p>I want to master the process of building web sites and increase my knowledge, skills and abilities in:</p>
-        <ul class="skills">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>Java</li>
-          <li>Python</li>
-          <li>SQL</li>
-          <li>jQuery</li>
-          <li>React.js</li>
-          <li>Node.js</li>
-        </ul>
-        <p>I'd like to pursue a career in development and help clients build an impressive online presence.</p>
-      </section> 
-      <section class="card">
-        <h2>Hobbies and interests</h2>
-        <p>I have a varied interest in things, I'm very active having completed a number of endurance events for fun and competing in both Muay Thai and Boxing.</p>
-        <p>Outside of sport I love to learn and will often spend an hour or more studying.</p>
-        <p>You can see some of my favourite hobbies and interests below.</p>
-        <ul class="skills">
-          <li>Muay Thai</li>
-          <li>BJJ</li>
-          <li>Running</li>
-          <li>Rugby</li>
-          <li>Swimming</li>
-          <li>Weights</li>
-          <li>Reading</li>
-          <li>Learning</li>
-          <li>Gaming</li>
-          <li>Socialising</li>
-          <li>Theatre</li>
-          <li>Cinema</li>
-          <li>Music</li>
-        </ul>
-      </section>
+            </div>
+            <div class="col-lg order-lg-3">
+                <h3 class="mb-4">Hobbies and Interests</h3>
+                <div class="list-group">
+                    <span class="border border-dark">
+                        <a href="http://www.benfleetmuaythai.co.uk/" target="_blank" class="list-group-item list-group-item-action hobbies"><strong>Muay Thai</strong><span><img class="hyperlink" src="img/hyperlink.png"></span></a>
+                        <a href="https://gbchelmsford.com/" target="_blank" class="list-group-item list-group-item-action hobbies"><strong>Brazilian Jiu Jitsu</strong><span><img class="hyperlink" src="img/hyperlink.png"></span></a>
+                        <a href="https://www.east-essex-tri-club.co.uk/" target="_blank" class="list-group-item list-group-item-action hobbies"><strong>Triathlon</strong><span><img class="hyperlink" src="img/hyperlink.png"></span></a>
+                        <a href="http://www.powering-through.com/" target="_blank" class="list-group-item list-group-item-action hobbies"><strong>Weight Lifting</strong><span><img class="hyperlink" src="img/hyperlink.png"></span></a>
+                        <a href="https://www.worldofbooks.com/en-gb" target="_blank" class="list-group-item list-group-item-action hobbies"><strong>Reading</strong><span><img class="hyperlink" src="img/hyperlink.png"></span></a>
+                        <a href="http://www.open.ac.uk/" target="_blank" class="list-group-item list-group-item-action hobbies"><strong>Learning</strong><span><img class="hyperlink" src="img/hyperlink.png"></span></a>
+                    </span>
+                </div>
+            </div>
+            <!-- footer -->
+            
+        </div><!-- /about -->
+        
+        <!-- signup form -->
+        <hr class="my-4 border border-dark">
+        <div class="row py-4 text-muted">
+            <div class="col-md col-xl-5 text-white">
+                <p><strong>What can I offer</strong></p>
+                <p>I will focus on your core business needs and design/develop sites with your clients in mind.</p>
+                <p>Creating a dynamic user friendly website is second nature to me, as such I will provide a results driven, attractive web site that offers your clients a fantastic experience.</p>
+            </div>
+            <div id="contact" class="col-md col-xl-5 ml-auto">
+                <p><strong>Get in touch.</strong></p>
+                <div class="input-group">
+                    <span class="input-group-btn">
+                        <a href="mailto:apstevens@shayledevops.co.uk?subject=Website query." class="btn btn-primary" type="button">Click here to send me an email</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <hr><!-- /signup form -->
+        
+        <!-- footer -->
+        <div class="row py-3">
+            <div class="col-md-7">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Back to top</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn btn-outline-secondary">Other Pages</button>
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#projects">Projects</a>
+                                <a class="dropdown-item" href="experience.html">Experience</a>
+                                <a class="dropdown-item" href="contact.html">Contact</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="col">
+                <ul class="list-unstyled">
+                    <li class="media">
+                        <div class="media-body">
+                            <a href="https://www.linkedin.com/in/andy-s-842095171/" target="_blank" class="social linkedin"></a>
+                            <a href="https://github.com/apstevens" target="_blank" class="social github"></a>
+                        </div>
+                    </li>
+            </div>
+            <div class="col-md text-md-right">
+                <small>&copy; 2020 ShayleDevops &amp; AP Stevens</small>
+            </div>
+        </div>
+        <!-- /footer -->
 
-    </main>
-    <footer>
-      <ul>
-        <li><a href="https://www.linkedin.com/in/andy-s-842095171/" target="_blank" class="social linkedin">LinkedIn</a></li>
-        <li><a href="https://github.com/apstevens" target="_blank" class="social github">Github</a></li>
-      </ul>
-      <p class="copyright">&copy; Copyright 2020, Andy Stevens</p>
-      <a href="#top" class="copyright">Back to top &raquo;</a>
-    </footer>
+    <!-- Optional JavaScript; choose one of the two! -->
 
-  </body>
-  </html>
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

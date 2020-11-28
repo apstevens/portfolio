@@ -1,0 +1,248 @@
+body {
+    font-family: 'Amatic SC', cursive;
+    background: url(../img/technology.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 75%;
+}
+
+li {
+    list-style-type: none;
+
+}
+
+p {
+    font-size: 1.5em;
+}
+
+
+.hyperlink {
+    /* margin-bottom: 20px; */
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    float: right;
+}
+
+.hyperlink-project {
+    /* margin-bottom: 20px; */
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.address {
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.welcome {
+    font-size: 50px;
+}
+
+.site-header {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.site-header a {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
+    z-index: 1;
+}
+
+.site-header a:hover {
+    border: 1px solid yellowgreen;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.list-group a{
+    font-size: 1.5em;
+}
+
+.btn-outline-info {
+    border: 1px solid #fff;
+    color: #fff;
+    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
+}
+
+.btn-primary {
+    background: none;
+    border: 1px solid yellowgreen;
+    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
+}
+
+.btn-primary:hover {
+    background: #001528;
+    border: 1px solid yellowgreen;
+    transform: scale(1.1);
+}
+
+.btn-light {
+    border: 1px solid yellowgreen;
+    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
+}
+
+.btn-light:hover {
+    background: #001528;
+    color: #fff;
+    border: 1px solid yellowgreen;
+    transform: scale(1.1);
+}
+
+
+.btn-outline-info:hover {
+    transform: scale(1.1);
+    border: 1px solid yellowgreen;
+    background: #001528;
+    color: #fff;
+}
+
+.btn-outline-secondary {
+    border: 1px solid yellowgreen;
+    color: #fff;
+    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
+}
+
+.btn-outline-secondary:hover {
+    border: 1px solid yellowgreen;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.dropdown-menu {
+    border: 1px solid yellowgreen;
+    background: none;
+}
+
+.card {
+    background: none;
+    border: 2px solid yellowgreen;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    color: #fff;
+}
+
+.card-img-top {
+    padding:  5px;
+    width: 140px;
+    height: 140px;
+}
+
+.skills {
+    margin: 20px;
+}
+
+.dropdown-menu a {
+    color: #fff;
+    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
+}
+
+.dropdown-menu:hover {
+    background: #001528;
+}
+
+.dropdown-menu a:hover {
+    background: yellowgreen;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+.profile {
+    width: 400px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.jumbotron{
+    border-radius: 5px;
+    background-image: url(../img/2705EC-Chelmsford-City-Photo-3_FORIYA.jpg);
+    background-size: cover;
+    opacity: 0.6;
+}
+
+.jumbotron h1,
+.jumbotron p,
+.jumbotron button {
+    opacity: none;
+}
+
+.border-dark {
+    border-radius: 5px;
+}
+
+.goals:nth-child(even) {
+    background-color: #d3d3d3;
+    border-top: 1px dotted #000;
+    border-bottom: 1px dotted #000;
+}
+
+.hobbies {
+    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
+}
+
+.hobbies:hover {
+    border: 1px solid #000;
+    background: yellowgreen;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+#home {
+    background: #001528;
+}
+
+#overlay {
+    background: #001528;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+
+.overlay-container {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: url(../img/technology.jpg) no-repeat;
+    background-size: cover;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .4;
+  transition: all .5s;
+}
+
+a.linkedin {
+  background-image: url(../img/linkedin.svg);
+}
+a.github {
+  background-image: url(../img/github.svg);
+}
+a.social:hover {
+  opacity: 1;
+}
