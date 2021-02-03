@@ -24,29 +24,6 @@ textarea:focus {
     color: #fff;
 }
 
-#overlay {
-    background: #fff;
-    width: 100%;
-    height: 100vh;
-    position: fixed;
-    display: flex;
-    flex-direction: column;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 10;
-}
-
-.overlay-container {
-    position: fixed;
-    left: 500px;
-    width: 1000px;
-    height: 100vh;
-    background: url(../images/shayle_virtual_Logo.svg) no-repeat;
-    background-size: cover;
-}
-
 header {
     border-bottom: 4px solid #5591c5;
 }
@@ -241,6 +218,29 @@ a.main-title {
 
 
 @media (min-width: 641px) {
+
+    #overlay {
+        background: #fff;
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+    }
+
+    .overlay-container {
+        position: fixed;
+        left: 500px;
+        width: 1000px;
+        height: 100vh;
+        background: url(../images/shayle_virtual_Logo.svg) no-repeat;
+        background-size: cover;
+    }
 
     li {
         display: inline;
