@@ -1,229 +1,31 @@
+html,
 body {
-    font-family: 'Amatic SC', cursive;
-    background: url(../img/technology.jpg) no-repeat;
-    background-size: cover;
-    background-position: 50% 75%;
+    background: #fff0f5;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
 li {
     list-style-type: none;
-
+    padding: 10px;
 }
 
-p {
-    font-size: 1.5em;
+input,
+textarea {
+    outline: none;
 }
 
-.listgroup-goals {
-    clear: both;
-    border: 1px solid yellowgreen;
-    border-radius: 5px;
-}
-
-.hyperlink {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    float: right;
-}
-
-.hyperlink-goals li {
-    margin-bottom: 24px;
-}
-
-.hyperlink-goals {
-    width: 35px;
-    height: 35px;
-    border: 1px solid yellowgreen;
-    border-radius: 5px;
-    float: right;
-}
-
-.hyperlink-project {
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-}
-
-.address {
-    display: block;
-    text-align: center;
-    font-size: 1.5em;
-}
-
-.welcome {
-    font-size: 50px;
-}
-
-.site-header {
-    margin-top: 10px;
-    border-radius: 5px;
-}
-
-.site-header a {
-    font-size: 1.5em;
-    color: white;
-    text-decoration: none;
-    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
-    z-index: 1;
-}
-
-.site-header a:hover {
-    border: 1px solid yellowgreen;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.list-goals {
-    border: 1px solid yellowgreen;
-    border-radius: 5px;
-}
-
-.list-group a{
-    font-size: 1.5em;
-}
-
-.btn-outline-info {
-    border: 1px solid #fff;
+input:focus,
+textarea:focus {
+    outline: #5591c5;
+    background: #5591c5;
+    opacity: 0.8;
     color: #fff;
-    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
-}
-
-.btn-primary {
-    background: none;
-    border: 1px solid yellowgreen;
-    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
-}
-
-.btn-primary:hover {
-    background: #001528;
-    border: 1px solid yellowgreen;
-    transform: scale(1.1);
-}
-
-.btn-light {
-    border: 1px solid yellowgreen;
-    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
-}
-
-.btn-light:hover {
-    background: #001528;
-    color: #fff;
-    border: 1px solid yellowgreen;
-    transform: scale(1.1);
-}
-
-
-.btn-outline-info:hover {
-    transform: scale(1.1);
-    border: 1px solid yellowgreen;
-    background: #001528;
-    color: #fff;
-}
-
-.btn-outline-secondary {
-    border: 1px solid yellowgreen;
-    color: #fff;
-    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
-}
-
-.btn-outline-secondary:hover {
-    border: 1px solid yellowgreen;
-    color: #fff;
-    transform: scale(1.1);
-}
-
-.dropdown-menu {
-    border: 1px solid yellowgreen;
-    background: none;
-}
-
-.card {
-    background: none;
-    border: 2px solid yellowgreen;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-}
-
-.card-body {
-    color: #fff;
-}
-
-.card-img-top {
-    padding:  5px;
-    width: 140px;
-    height: 140px;
-}
-
-.skills {
-    margin: 20px;
-}
-
-.dropdown-menu a {
-    color: #fff;
-    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
-}
-
-.dropdown-menu:hover {
-    background: #001528;
-}
-
-.dropdown-menu a:hover {
-    background: yellowgreen;
-    color: #fff;
-    border: 1px solid #000;
-    border-radius: 5px;
-    transform: scale(1.1);
-}
-
-.profile {
-    width: 400px;
-    height: 240px;
-    object-fit: cover;
-}
-
-.jumbotron{
-    border-radius: 5px;
-    background-image: url(../img/2705EC-Chelmsford-City-Photo-3_FORIYA.jpg);
-    background-size: cover;
-    opacity: 0.6;
-}
-
-.border-dark {
-    border-radius: 5px;
-}
-
-.goals {
-    color: #fff;
-    font-size: 1.5em;
-    background: none;
-}
-
-.goals:nth-child(even) {
-    background-color: #d3d3d3;
-    color: #000;
-    border-top: 1px solid yellowgreen;
-    border-bottom: 1px solid yellowgreen;
-}
-
-.hobbies {
-    transition: cubic-bezier(.07,.69,.94,.58) 0.5s;
-}
-
-.hobbies:hover {
-    border: 1px solid #000;
-    background: yellowgreen;
-    color: #ffffff;
-    transform: scale(1.1);
-}
-
-#home {
-    background: #001528;
 }
 
 #overlay {
-    background: #001528;
+    background: #fff;
     width: 100%;
     height: 100vh;
     position: fixed;
@@ -237,33 +39,267 @@ p {
 }
 
 .overlay-container {
-    text-align: center;
-    width: 100%;
+    position: fixed;
+    left: 500px;
+    width: 1000px;
     height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background: url(../img/technology.jpg) no-repeat;
+    background: url(../images/shayle_virtual_Logo.svg) no-repeat;
     background-size: cover;
 }
 
-a.social {
-  display: inline-block;
-  text-indent: -9999px;
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
-  opacity: .4;
-  transition: all .5s;
+header {
+    border-bottom: 4px solid #5591c5;
 }
 
-a.linkedin {
-  background-image: url(../img/linkedin.svg);
+footer {
+    border-top: 4px solid #5591c5;
 }
-a.github {
-  background-image: url(../img/github.svg);
+
+.site-content li {
+    display: block;
 }
-a.social:hover {
-  opacity: 1;
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #5591c5;
+    padding: 10px;
+}
+
+.site-header, 
+.site-footer,
+.title {
+    font-family: 'Spartan', sans-serif;
+    color: #5591c5;
+}
+
+.site-content {
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+}
+
+strong.site-content {
+    color: #5591c5;
+}
+
+strong.site-content:hover {
+    color: #000;
+    border-bottom: 2px solid #5591c5;
+}
+
+/* a.nav-links:link {
+    color: #ffa500;
+}
+
+a.nav-links:visited {
+    opacity: 0.8;
+} */
+
+a.nav-links:hover {
+    color: black;
+    border-bottom: 2px solid #5591c5;
+}
+
+a.nav-links:active {
+    font-weight: 700;
+    color: #5591c5;
+}
+
+div.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+#quote {
+    font-size: 16px;
+}
+
+a.main-title {
+    text-decoration: none;
+    color:#5591c5;
+}
+
+.header-logo,
+.footer-logo {
+    width: 100px;
+    height: 100px;
+    padding-right: 20px;
+    vertical-align: sub;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 0.3s;
+}
+
+.header-logo:hover,
+.footer-logo:hover {
+    transform: rotate(20deg);
+}
+
+.language-icon {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.hyperlink {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.main-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid #5591c5;
+    border-radius: 20px;
+}
+
+.project-img {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #5591c5;
+    border-radius: 25px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-delay: 0.3s;
+}
+
+.project-img:hover {
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+
+.project-hyperlink {
+    float: right;
+    margin-top: 5px;
+}
+
+.experience-column1 {
+    display: block;
+}
+
+.goals,
+.hobbies {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-column2 {
+    padding-bottom: 20px;
+}
+
+.nota-bene {
+    font-family: 'Spartan', sans-serif;
+    font-size: 8px;
+    font-weight: 700;
+    color: #5591c5;
+}
+
+.education-date {
+    font-size: 10px;
+}
+
+.form-input,
+.text-input {
+    min-width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.form-input:focus,
+.text-input:focus {
+    outline: #5591c5;
+}
+
+.text-input {
+    width: 351px;
+}
+
+.form-wrapper label {
+    display: block;
+}
+
+.btn {
+    width: 300px;
+    padding: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    font-family: 'Spartan', sans-serif;
+    color: #fff;
+    background: #5591c5;
+}
+
+
+@media (min-width: 641px) {
+
+    li {
+        display: inline;
+    }
+
+    p.copyright {
+        top: 25%;
+    }
+
+    p.title,
+    p.copyright {
+        width: 300px;
+        display: inline;
+        position: absolute;
+    }
+
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+
+    }
+
+    .contact-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 30px;
+    }
+
+    .column1 {
+       order: 2; 
+    }
+
+    .column2 {
+        order: 1;
+    }
+    .column3 {
+        order: 3;
+    }
+    .goals,
+    .hobbies {
+        align-items: center;
+
+    }
+
+    .header-anchor,
+    .footer-anchor {
+        position: relative;
+        top: 25%;
+    }
+
+    .form-input,
+    .text-input {
+        width: 500px;
+    }
+
 }

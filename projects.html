@@ -1,135 +1,166 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Shayle ~ Web Designer ~ Experience</title>
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous"> -->
 </head>
 
-<body id="projects" class="p-3 mb-2 text-white">
+<body>
+    <div class="container flex-wrapper">
+        <div id="overlay" class="page-overlay">
+            <div class="overlay-container">
 
-    <!-- navbar -->
-    <nav class="container navbar-dark bg-dark site-header mt4 py-1">
-        <div class="d-flex flex-column flex-md-row justify-content-between">
-            <a class="py-2 d-md-inline-block" href="index.html">Home</a>
-            <a class="py-2 d-md-inline-block" href="#projects">Projects</a>
-            <a class="py-2 d-md-inline-block" href="experience.html">Experience</a>
-            <a class="py-2 d-md-inline-block" href="contact.html">Contact</a>
+            </div>
         </div>
-    </nav>
-    <!-- /navbar-->
 
+        <header class="site-header">
+            <div class="flex-container">
 
+                <h1 class="main-header">
+                    <a class="main-title header-anchor" href="">
+                        <img class="header-logo" src="images/shayle_virtual_Logo.svg" alt="dedicated 2 u logo">
+                        <p class="title">Devops</p>
+                        <small id="quote"></small>
+                    </a>
+                </h1>
 
-    <!-- projetcs -->
-    <h1 id="speakers" class="display-4 text-center my-5">Projects</h1>
-    <div class="container">
-        <div class="card mb-3">
-            <a href="projects/codereview/index.html" target="_blank"><img src="img/form.png" class="card-img-top" alt="form"><img class="hyperlink-project" src="img/hyperlink.png" alt="hyperlink"></a>
-            <div class="card-body">
-                <h5 class="card-title">Code review</h5>
-                <p>For this project, I built a responsive, mobile-friendly registration form using a wide variety of HTML form input
-                types and attributes. Using a supplied mockup file, I created a mobile and desktop version of the form using media
-                queries, and followed a "mobile-first" approach.</p>
+                <nav class="nav main-nav">
+                    <ul>
+                        <li><a class="nav-links" href="index.html">Home</a></li>
+                        <li><a class="nav-links" href="projects.html">Projects</a></li>
+                        <li><a class="nav-links" href="experience.html">Experience</a></li>
+                        <li><a class="nav-links" href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+
             </div>
-        </div>
-        <div class="card mb-3">
-            <a href="projects/photo-gallery/index.html" target="_blank"><img src="img/photo-gallery.jpg" class=" icon card-img-top" alt="photo-gallery"><img class="hyperlink-project" src="img/hyperlink.png" alt="hyperlink"></a>
-            <div class="card-body">
-                <h5 class="card-title">Photo Gallery</h5>
-                <p>For this project, I built a responsive, mobile-friendly Interactive image gallery. Using
-                HTML, CSS and the popular programming language JavaScript I created an interactive, searchable gallery of photos.</p>
+        </header>
+
+        <div class="container">
+
+            <div class="wrapper">
+                <section class="project-column1">
+                    <article class="post">
+                    
+                        <a href="projects/codereview/index.html" target="_blank"><img src="images/form.png" class="project-img" alt="link to basic form project">
+                            <img class="hyperlink project-hyperlink" src="images/hyperlink.png" alt="hyperlink">
+                        </a>
+                    
+                        <h3 class="title">Code review</h3>
+                    
+                        <p class="site-content">
+                            For this project, I built a responsive, mobile-friendly registration form using a wide
+                            variety of HTML form input types and attributes. Using a supplied mockup file, I created 
+                            a mobile and desktop version of the form using media queries, and followed a "mobile-first"
+                            approach.
+                        </p>
+                    
+                    </article>
+                </section>
+                <section class="project-column2">
+                    <article class="post">
+                    
+                        <a href="projects/photo-gallery/index.html" target="_blank"><img src="images/photo-gallery.jpg" class="project-img" alt="link to photo gallery project">
+                            <img class="hyperlink project-hyperlink" src="images/hyperlink.png" alt="hyperlink">
+                        </a>
+                    
+                        <h3 class="title">Photo gallery</h3>
+                    
+                        <p class="site-content">
+                            For this project, I built a responsive, mobile-friendly Interactive image gallery. Using HTML, CSS and the popular
+                            programming language JavaScript I created an interactive, searchable gallery of photos.
+                        </p>
+                    
+                    </article>
+                </section>
+                <section class="project-column3">
+                    <article class="post">
+                    
+                        <a href="projects/webApp-dashboard/index.html" target="_blank"><img src="images/dashboard.jpg" class="project-img" alt="link to webapp dashboard project">
+                            <img class="hyperlink project-hyperlink" src="images/hyperlink.png" alt="hyperlink">
+                        </a>
+                    
+                        <h3 class="title">Webapp Dashboard</h3>
+                    
+                        <p class="site-content">
+                            For this project, I was tasked with creating an interactive dashboard for a web application using advanced web
+                            techniques including SVG graphics and JavaScript. The project involved creating tables, charts, graphics and 
+                            other user interface components in a manner that promoted interactivity and usability.
+                        </p>
+                    
+                    </article>
+                </section>
+
+                <section class="project-column4">
+                    <article class="post">
+                
+                        <a href="projects/gameShow/index.html" target="_blank"><img src="images/game-show.png" class="project-img" alt="link to game show project">
+                            <img class="hyperlink project-hyperlink" src="images/hyperlink.png" alt="hyperlink">
+                        </a>
+                
+                        <h3 class="title">Game Show</h3>
+                
+                        <p class="site-content">
+                            For this project, I created a browser version of “Wheel of Success”, a word guessing game. Using Javascript to
+                            generate a random phrase that players will try to guess by entering different letters into the program.
+                        </p>
+                
+                    </article>
+                </section>
+
+                <section class="project-column5">
+                    <article class="post">
+                
+                        <a href="projects/studentDatabase/index.html" target="_blank"><img src="images/student.jpg" class="project-img" alt="link to student database project">
+                            <img class="hyperlink project-hyperlink" src="images/hyperlink.png" alt="hyperlink">
+                        </a>
+                
+                        <h3 class="title">Student database</h3>
+                
+                        <p class="site-content">
+                            For this project, I was tasked with creating an interactive student database using pagination. The project was
+                            completed using plain &lpar;&quot;Vanilla&quot;&rpar; JavaScript.
+                        </p>
+                
+                    </article>
+                </section>
             </div>
+
         </div>
-       <div class="card mb-3">
-            <a href="projects/gameShow/index.html" target="_blank"><img src="img/game-show.png" class="card-img-top" alt="game-show"><img class="hyperlink-project" src="img/hyperlink.png" alt="hyperlink"></a>
-            <div class="card-body">
-                <h5 class="card-title">Game Show</h5>
-                <p>For this project, I created a browser version of “Wheel of Success”, a word guessing game. Using Javascript to generate a random
-                phrase that players will try to guess by entering different letters into the program.</p>
+        <footer class="site-footer">
+            <div class="flex-container">
+                <a class="footer-anchor" href="">
+                    <img class="footer-logo" src="images/shayle_virtual_Logo.svg" alt="shayle devops logo">
+                    <p class="copyright">&copy; 2020 - Devops</p>
+                </a>
+
+                <ul>
+                    <li><a class="nav-links" href="https://github.com/apstevens" target="_blank">Github</a></li>
+                    <li><a class="nav-links" href="https://www.linkedin.com/in/andy-s-842095171/"
+                            target="_blank">Linkedin</a></li>
+                    <li><a class="nav-links" href="https://www.upwork.com/freelancers/~015b767e57711269c2"
+                            target="_blank">Upwork</a></li>
+                    <li><a class="nav-links" href="https://www.fiverr.com/andystevens379?up_rollout=true"
+                            target="_blank">Fiver</a></li>
+                </ul>
+
             </div>
-        </div>
-        <div class="card mb-3">
-            <a href="projects/webApp-dashboard/index.html" target="_blank"><img src="img/dashboard.jpg" class="card-img-top" alt="webApp-dashboard"><img class="hyperlink-project" src="img/hyperlink.png" alt="hyperlink"></a>
-            <div class="card-body">
-                <h5 class="card-title">Dashboard</h5>
-                <p>For this project, I was tasked with creating an interactive dashboard for a web application using advanced web techniques including SVG graphics and JavaScript. 
-                    The project involved creating tables, charts, graphics and other user interface components in a manner that promoted interactivity and usability.</p>
-            </div>
-        </div>
-        <div class="card mb-3">
-            <a href="projects/studentDatabase/index.html" target="_blank"><img src="img/student.jpg" class="card-img-top" alt="student database"><img class="hyperlink-project" src="img/hyperlink.png" alt="hyperlink"></a>
-            <div class="card-body">
-                <h5 class="card-title">Dashboard</h5>
-                <p>For this project, I was tasked with creating an interactive student database using pagination. The project was completed using plain &lpar;&quot;Vanilla&quot;&rpar; JavaScript.</p>
-            </div>
-        </div>
+        </footer>
     </div>
-     <!-- /projects-->
-    <hr><!-- /signup form -->
-
-    <!-- footer -->
-    <div class="row py-3">
-        <div class="col-md-7">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Back to top</a>
-                </li>
-                <li class="nav-item">
-                    <div class="btn-group dropup">
-                        <button type="button" class="btn btn-outline-secondary">Other Pages</button>
-                        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="index.html">Home</a>
-                            <a class="dropdown-item" href="experience.html">Experience</a>
-                            <a class="dropdown-item" href="contact.html">Contact</a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="col">
-            <ul class="list-unstyled">
-                <li class="media">
-                    <div class="media-body">
-                        <a href="https://www.linkedin.com/in/andy-s-842095171/" target="_blank" class="social linkedin"></a>
-                        <a href="https://github.com/apstevens" target="_blank" class="social github"></a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="col-md text-md-right">
-            <small>&copy; 2020 ShayleDevops &amp; AP Stevens</small>
-        </div>
-    </div>
-    <!-- /footer -->
-
-    <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
-        crossorigin="anonymous"></script>
-
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
-    <script src="js/app.js"></script>
 </body>
+<script src="app.js/script.js"></script>
 
 </html>
